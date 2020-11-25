@@ -1,2 +1,2 @@
-# shadowrocket-Rule
-366660008
+# Shadowrocket/Clash/QuanX-Rule
+
