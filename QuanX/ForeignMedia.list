@@ -1,0 +1,223 @@
+# (ForeignMedia)
+# (Music)
+# > Deezer
+USER-AGENT,Deezer*,💻 国外影视
+DOMAIN-SUFFIX,deezer.com,💻 国外影视
+DOMAIN-SUFFIX,dzcdn.net,💻 国外影视
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com,💻 国外影视
+DOMAIN-SUFFIX,kkbox.com.tw,💻 国外影视
+DOMAIN-SUFFIX,kfs.io,💻 国外影视
+# > JOOX
+USER-AGENT,WeMusic*,💻 国外影视
+USER-AGENT,JOOX*,💻 国外影视
+DOMAIN-SUFFIX,joox.com,💻 国外影视
+# > Pandora
+USER-AGENT,Pandora*,💻 国外影视
+DOMAIN-SUFFIX,pandora.com,💻 国外影视
+# > SoundCloud
+USER-AGENT,SoundCloud*,💻 国外影视
+DOMAIN-SUFFIX,p-cdn.us,💻 国外影视
+DOMAIN-SUFFIX,sndcdn.com,💻 国外影视
+DOMAIN-SUFFIX,soundcloud.com,💻 国外影视
+# > Spotify
+USER-AGENT,Spotify*,💻 国外影视
+DOMAIN-SUFFIX,pscdn.co,💻 国外影视
+DOMAIN-SUFFIX,scdn.co,💻 国外影视
+DOMAIN-SUFFIX,spotify.com,💻 国外影视
+DOMAIN-SUFFIX,spoti.fi,💻 国外影视
+DOMAIN-KEYWORD,spotify.com,💻 国外影视
+DOMAIN-KEYWORD,-spotify-com,💻 国外影视
+# > TIDAL
+USER-AGENT,TIDAL*,💻 国外影视
+DOMAIN-SUFFIX,tidal.com,💻 国外影视
+# > YouTubeMusic
+USER-AGENT,com.google.ios.youtubemusic*,💻 国外影视
+USER-AGENT,YouTubeMusic*,💻 国外影视
+# (Video)
+# > All4
+USER-AGENT,All4*,💻 国外影视
+DOMAIN-SUFFIX,c4assets.com,💻 国外影视
+DOMAIN-SUFFIX,channel4.com,💻 国外影视
+# > AbemaTV
+USER-AGENT,AbemaTV*,💻 国外影视
+DOMAIN-SUFFIX,abema.io,💻 国外影视
+DOMAIN-SUFFIX,ameba.jp,💻 国外影视
+DOMAIN-SUFFIX,abema.tv,💻 国外影视
+DOMAIN-SUFFIX,hayabusa.io,💻 国外影视
+DOMAIN,abematv.akamaized.net,💻 国外影视
+DOMAIN,ds-linear-abematv.akamaized.net,💻 国外影视
+DOMAIN,ds-vod-abematv.akamaized.net,💻 国外影视
+DOMAIN,linear-abematv.akamaized.net,💻 国外影视
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,💻 国外影视
+USER-AGENT,Prime%20Video*,💻 国外影视
+DOMAIN-SUFFIX,aiv-cdn.net,💻 国外影视
+DOMAIN-SUFFIX,aiv-delivery.net,💻 国外影视
+DOMAIN-SUFFIX,amazonvideo.com,💻 国外影视
+DOMAIN-SUFFIX,primevideo.com,💻 国外影视
+DOMAIN,avodmp4s3ww-a.akamaihd.net,💻 国外影视
+DOMAIN,d25xi40x97liuc.cloudfront.net,💻 国外影视
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,💻 国外影视
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,💻 国外影视
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,💻 国外影视
+DOMAIN-KEYWORD,avoddashs,💻 国外影视
+# > Bahamut
+USER-AGENT,Anime*,💻 国外影视
+DOMAIN-SUFFIX,bahamut.com.tw,💻 国外影视
+DOMAIN-SUFFIX,gamer.com.tw,💻 国外影视
+DOMAIN,gamer-cds.cdn.hinet.net,💻 国外影视
+DOMAIN,gamer2-cds.cdn.hinet.net,💻 国外影视
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*,💻 国外影视
+DOMAIN-SUFFIX,bbc.co.uk,💻 国外影视
+DOMAIN-SUFFIX,bbci.co.uk,💻 国外影视
+DOMAIN-KEYWORD,bbcfmt,💻 国外影视
+DOMAIN-KEYWORD,uk-live,💻 国外影视
+# > DAZN
+USER-AGENT,DAZN*,💻 国外影视
+DOMAIN-SUFFIX,dazn.com,💻 国外影视
+DOMAIN-SUFFIX,dazn-api.com,💻 国外影视
+DOMAIN,d151l6v8er5bdm.cloudfront.net,💻 国外影视
+DOMAIN-KEYWORD,voddazn,💻 国外影视
+# > Disney+
+USER-AGENT,Disney+*,💻 国外影视
+DOMAIN-SUFFIX,bamgrid.com,💻 国外影视
+DOMAIN-SUFFIX,disney-plus.net,💻 国外影视
+DOMAIN-SUFFIX,disneyplus.com,💻 国外影视
+DOMAIN-SUFFIX,dssott.com,💻 国外影视
+DOMAIN,cdn.registerdisney.go.com,💻 国外影视
+# > encoreTVB
+USER-AGENT,encoreTVB*,💻 国外影视
+DOMAIN-SUFFIX,encoretvb.com,💻 国外影视
+DOMAIN,edge.api.brightcove.com,💻 国外影视
+DOMAIN,bcbolt446c5271-a.akamaihd.net,💻 国外影视
+# > FOX NOW
+USER-AGENT,FOX%20NOW*,💻 国外影视
+DOMAIN-SUFFIX,fox.com,💻 国外影视
+DOMAIN-SUFFIX,foxdcg.com,💻 国外影视
+DOMAIN-SUFFIX,theplatform.com,💻 国外影视
+DOMAIN-SUFFIX,uplynk.com,💻 国外影视
+# > HBO NOW
+USER-AGENT,HBO%20NOW*,💻 国外影视
+DOMAIN-SUFFIX,hbo.com,💻 国外影视
+DOMAIN-SUFFIX,hbogo.com,💻 国外影视
+DOMAIN-SUFFIX,hbonow.com,💻 国外影视
+# > HBO GO HKG
+USER-AGENT,HBO%20GO%20PROD%20HKG*,💻 国外影视
+DOMAIN-SUFFIX,hbogoasia.com,💻 国外影视
+DOMAIN-SUFFIX,hbogoasia.hk,💻 国外影视
+DOMAIN,bcbolthboa-a.akamaihd.net,💻 国外影视
+DOMAIN,players.brightcove.net,💻 国外影视
+DOMAIN,s3-ap-southeast-1.amazonaws.com,💻 国外影视
+DOMAIN,dai3fd1oh325y.cloudfront.net,💻 国外影视
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,💻 国外影视
+DOMAIN,hboasia1-i.akamaihd.net,💻 国外影视
+DOMAIN,hboasia2-i.akamaihd.net,💻 国外影视
+DOMAIN,hboasia3-i.akamaihd.net,💻 国外影视
+DOMAIN,hboasia4-i.akamaihd.net,💻 国外影视
+DOMAIN,hboasia5-i.akamaihd.net,💻 国外影视
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,💻 国外影视
+# > 华文电视
+USER-AGENT,HWTVMobile*,💻 国外影视
+DOMAIN-SUFFIX,5itv.tv,💻 国外影视
+DOMAIN-SUFFIX,ocnttv.com,💻 国外影视
+# > Hulu
+DOMAIN-SUFFIX,hulu.com,💻 国外影视
+DOMAIN-SUFFIX,huluim.com,💻 国外影视
+DOMAIN-SUFFIX,hulustream.com,💻 国外影视
+# > Hulu(フールー)
+DOMAIN-SUFFIX,happyon.jp,💻 国外影视
+DOMAIN-SUFFIX,hulu.jp,💻 国外影视
+# > ITV
+USER-AGENT,ITV_Player*,💻 国外影视
+DOMAIN-SUFFIX,itv.com,💻 国外影视
+DOMAIN-SUFFIX,itvstatic.com,💻 国外影视
+DOMAIN,itvpnpmobile-a.akamaihd.net,💻 国外影视
+# > KKTV
+USER-AGENT,KKTV*,💻 国外影视
+USER-AGENT,com.kktv.ios.kktv*,💻 国外影视
+DOMAIN-SUFFIX,kktv.com.tw,💻 国外影视
+DOMAIN-SUFFIX,kktv.me,💻 国外影视
+DOMAIN,kktv-theater.kk.stream,💻 国外影视
+# > Line TV
+USER-AGENT,LINE%20TV*,💻 国外影视
+DOMAIN-SUFFIX,linetv.tw,💻 国外影视
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,💻 国外影视
+# > LiTV
+DOMAIN-SUFFIX,litv.tv,💻 国外影视
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,💻 国外影视
+# > My5
+USER-AGENT,My5*,💻 国外影视
+DOMAIN-SUFFIX,channel5.com,💻 国外影视
+DOMAIN-SUFFIX,my5.tv,💻 国外影视
+DOMAIN,d349g9zuie06uo.cloudfront.net,💻 国外影视
+# > myTV SUPER
+USER-AGENT,mytv*,💻 国外影视
+DOMAIN-SUFFIX,mytvsuper.com,💻 国外影视
+DOMAIN-SUFFIX,tvb.com,💻 国外影视
+# > Netflix
+USER-AGENT,Argo*,💻 国外影视
+DOMAIN-SUFFIX,netflix.com,💻 国外影视
+DOMAIN-SUFFIX,netflix.net,💻 国外影视
+DOMAIN-SUFFIX,nflxext.com,💻 国外影视
+DOMAIN-SUFFIX,nflximg.com,💻 国外影视
+DOMAIN-SUFFIX,nflximg.net,💻 国外影视
+DOMAIN-SUFFIX,nflxso.net,💻 国外影视
+DOMAIN-SUFFIX,nflxvideo.net,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest0.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest1.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest2.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest3.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest4.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest5.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest6.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest7.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest8.com,💻 国外影视
+DOMAIN-SUFFIX,netflixdnstest9.com,💻 国外影视
+IP-CIDR,23.246.0.0/18,💻 国外影视
+IP-CIDR,37.77.184.0/21,💻 国外影视
+IP-CIDR,45.57.0.0/17,💻 国外影视
+IP-CIDR,64.120.128.0/17,💻 国外影视
+IP-CIDR,66.197.128.0/17,💻 国外影视
+IP-CIDR,108.175.32.0/20,💻 国外影视
+IP-CIDR,192.173.64.0/18,💻 国外影视
+IP-CIDR,198.38.96.0/19,💻 国外影视
+IP-CIDR,198.45.48.0/20,💻 国外影视
+# > niconico
+USER-AGENT,Niconico*,💻 国外影视
+DOMAIN-SUFFIX,dmc.nico,💻 国外影视
+DOMAIN-SUFFIX,nicovideo.jp,💻 国外影视
+DOMAIN-SUFFIX,nimg.jp,💻 国外影视
+DOMAIN-SUFFIX,socdm.com,💻 国外影视
+# > PBS
+USER-AGENT,PBS*,💻 国外影视
+DOMAIN-SUFFIX,pbs.org,💻 国外影视
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,💻 国外影视
+DOMAIN-SUFFIX,pornhub.com,💻 国外影视
+DOMAIN-SUFFIX,pornhubpremium.com,💻 国外影视
+# > 台湾好
+USER-AGENT,TaiwanGood*,💻 国外影视
+DOMAIN-SUFFIX,skyking.com.tw,💻 国外影视
+DOMAIN,hamifans.emome.net,💻 国外影视
+# > Twitch
+DOMAIN-SUFFIX,twitch.tv,💻 国外影视
+DOMAIN-SUFFIX,twitchcdn.net,💻 国外影视
+DOMAIN-SUFFIX,ttvnw.net,💻 国外影视
+DOMAIN-SUFFIX,jtvnw.net,💻 国外影视
+# > ViuTV
+USER-AGENT,Viu*,💻 国外影视
+USER-AGENT,ViuTV*,💻 国外影视
+DOMAIN-SUFFIX,viu.com,💻 国外影视
+DOMAIN-SUFFIX,viu.tv,💻 国外影视
+DOMAIN,api.viu.now.com,💻 国外影视
+DOMAIN,d1k2us671qcoau.cloudfront.net,💻 国外影视
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,💻 国外影视
+DOMAIN,dfp6rglgjqszk.cloudfront.net,💻 国外影视
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,💻 国外影视
+USER-AGENT,YouTube*,💻 国外影视
+DOMAIN-SUFFIX,googlevideo.com,💻 国外影视
+DOMAIN-SUFFIX,youtube.com,💻 国外影视
+DOMAIN,youtubei.googleapis.com,💻 国外影视
