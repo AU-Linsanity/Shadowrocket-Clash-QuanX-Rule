@@ -6,6 +6,12 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com
 DOMAIN-SUFFIX,m-78.jp
 DOMAIN-SUFFIX,nichibenren.or.jp
 DOMAIN-SUFFIX,nicorette.co.kr
+DOMAIN,ehg-youtube.hitbox.com
+URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
+URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+URL-REGEX,^https?+:\/\/api\.catch\.gift\/api\/v\d\/pagead\/
 
 # > iqiyi & pps
 DOMAIN-SUFFIX,a.ckm.iqiyi.com
