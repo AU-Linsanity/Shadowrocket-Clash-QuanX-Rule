@@ -1,5 +1,6 @@
 # Clash: 解锁网易云音乐
 payload:
+USER-AGENT,NeteaseMusic*
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,music.163.com
 DOMAIN-SUFFIX,music.126.net
