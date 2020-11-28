@@ -1,17 +1,19 @@
 # Shadowrocket小火箭 解锁网易云灰色歌曲+带脚本懒人配置
 **Linsanity 懒人配置：（包含常见策略组和分流规则，解锁网易云音乐灰色歌曲,常用签到定时任务、获取 Cookie 等脚本）**
 
-**整体步骤:
 
-1.下载配置文件 
+**整体操作步骤:**
 
-2.加载小火箭懒人配置
+**1.下载配置文件** 
 
-3.添加解锁网易云音乐节点
+**2.加载小火箭懒人配置**
 
-4.将网易云节点分组到一个组中
+**3.添加解锁网易云音乐节点**
 
-5.打开周杰伦<摩羯座>专辑验证破解是否生效**
+**4.将网易云节点分组到一个组中**
+
+**5.开启代理, 打开网易云音乐的周杰伦<摩羯座>专辑验证破解是否生效**
+
 
 **1.下载配置文件, 配置文件如下:**
 **[\[Shadowrocket_Linsanity.conf\]](https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf)          
