@@ -4,7 +4,7 @@
 
 **整体操作步骤:**
 
-**1.下载配置文件** 
+**1.复制配置文件链接** 
 
 **2.加载小火箭懒人配置**
 
@@ -15,17 +15,17 @@
 **5.开启代理, 打开网易云音乐的周杰伦<摩羯座>专辑验证破解是否生效**
 
 
-**1.下载配置文件, 配置文件如下:**
+**1.复制配置文件链接, 配置文件如下:**
 **[\[Shadowrocket_Linsanity.conf\]](https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf)          
 https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf)**
 **2.加载小火箭懒人配置方法:
-1).打开小火箭点击下方配置后点击右上角'+'添加按钮**
+1).打开小火箭点击下方配置后点击右上角'+'添加按钮,将懒人配置文件链接复制**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image1.png" width="35%">
 
-**2).将懒人配置地址复制,在下面对话框窗口处粘贴,然后点击下载**
+**2).在下面对话框窗口处粘贴,然后点击下载**
 
-**( https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf )**
+** https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf **
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image2.png" width="35%">
 
