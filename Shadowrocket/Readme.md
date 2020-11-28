@@ -71,7 +71,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 打开代理后,可以用网易云音乐 周杰伦的专辑<摩羯座>进行测试,只要该专辑所有歌曲都能播放,那么就可以说成功完成了解锁.**
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image20.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image21.jpg" width="32%">
 
-**# 所有内容均来自互联网 不确保可用性
+# 所有内容均来自互联网 不确保可用性
 # 不要问我 啥都不会
 ### 说明 :
 * 只是搬运和同步更新大佬脚本.
