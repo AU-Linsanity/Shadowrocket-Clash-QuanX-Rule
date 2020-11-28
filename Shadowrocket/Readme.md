@@ -28,14 +28,15 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 **节点4:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image10.jpg" width="15%">**节点5:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image11.jpg" width="15%">**节点6:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image12.jpg" width="15%">
 
 **2).添加节点后,首页显示5个单独的节点和一个新增的订阅**
-![](Readme_md_files/image13.jpg?v=1&type=image =460x760)
-![](Readme_md_files/image14.jpg?v=1&type=image =460x760)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image13.jpg" width="35%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image14.jpg" width="35%">
 **4.将网易云节点分组到一个组中:**
 **1).主页点击全局路由,选择 配置**
-![](Readme_md_files/image15.jpg?v=1&type=image =460x760)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image15.jpg" width="35%">
+
 **2). 选择 配置 并 点击分组 然后点击,添加分组或者右上角+号**
-![](Readme_md_files/image16.png?v=1&type=image =460x760)
-![](Readme_md_files/image17.jpg?v=1&type=image =460x760)
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image16.png" width="35%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image17.jpg" width="35%">
 3).新建分组  网易云音乐   注意一定是要这个名字 因为配置文件里默认这个名字, 并且将负载均衡点开,把我们添加的网易云音乐节点一一加入该小组
 ![](Readme_md_files/image18.jpg?v=1&type=image =460x760)
 ![](Readme_md_files/image19.jpg?v=1&type=image =460x760)
