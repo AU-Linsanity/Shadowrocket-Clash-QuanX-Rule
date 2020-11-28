@@ -18,30 +18,14 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 **3.添加解锁网易云音乐节点的方法:
 1).点击小火箭首页左上角的扫描按钮,对以下6个二维码进行扫描生成节点**
 
-<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image6.png" width="15%">
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image6.png" width="35%">
 
 **节点1: 订阅类型**
 
-<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image7.png" width="15%">
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image7.png" width="15%">  **节点2:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image8.png" width="15%">  **节点3:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image9.png" width="15%">
 
-**节点2:**
+**节点4:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image10.jpg" width="15%">**节点5:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image11.jpg" width="15%">**节点6:**<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image12.jpg" width="15%">
 
-<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image8.png" width="15%">
-
-**节点3:**
-
-<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image9.png" width="15%">
-
-**节点4:**
-
-<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image10.jpg" width="15%">
-
-**节点5:**
-
-<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image11.jpg" width="15%">
-**节点6:**
-
-<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image12.jpg" width="15%">
 **2).添加节点后,首页显示5个单独的节点和一个新增的订阅**
 ![](Readme_md_files/image13.jpg?v=1&type=image =460x760)
 ![](Readme_md_files/image14.jpg?v=1&type=image =460x760)
