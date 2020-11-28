@@ -8,28 +8,40 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image1.png" width="35%">
 
-**2).将懒人配置地址复制粘贴**  **https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf**
+**2).将懒人配置地址复制粘贴( https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf )**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image2.png" width="35%">
-**3).点击生成的远程文件,然后点击使用配置**,**此时生成并选择了本地文件Shadowrocket_Linsanity.conf**, **记住此后不要更改选择其他配置,否则解锁网易云会失效**
+3).点击生成的远程文件,然后点击使用配置,此时生成并选择了本地文件Shadowrocket_Linsanity.conf,记住此后不要更改选择其他配置,否则解锁网易云会失效
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image3.png" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image4.png" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image5.png" width="32%">
 
 **3.添加解锁网易云音乐节点的方法:
 1).点击小火箭首页左上角的扫描按钮,对以下6个二维码进行扫描生成节点**
-![](Readme_md_files/image6.png?v=1&type=image =460x750)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image6.png" width="15%">
+
 **节点1: 订阅类型**
-![](Readme_md_files/image7.png?v=1&type=image =260x260)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image7.png" width="15%">
+
 **节点2:**
-![](Readme_md_files/image8.png?v=1&type=image =260x260)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image8.png" width="15%">
+
 **节点3:**
-![](Readme_md_files/image9.png?v=1&type=image =260x260)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image9.png" width="15%">
+
 **节点4:**
-![](Readme_md_files/image10.jpg?v=1&type=image =260x260)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image10.jpg" width="15%">
+
 **节点5:**
-![](Readme_md_files/image11.jpg?v=1&type=image =260x260)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image11.jpg" width="15%">
 **节点6:**
-![](Readme_md_files/image12.jpg?v=1&type=image =260x260)
+
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image12.jpg" width="15%">
 **2).添加节点后,首页显示5个单独的节点和一个新增的订阅**
 ![](Readme_md_files/image13.jpg?v=1&type=image =460x760)
 ![](Readme_md_files/image14.jpg?v=1&type=image =460x760)
