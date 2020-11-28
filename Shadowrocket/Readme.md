@@ -53,6 +53,8 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 * 只是搬运和同步更新大佬脚本.
 * 不负责维护脚本.
 * 只测试自用脚本，其他大部分脚本未测试可用性.
+
+
 ## 免责声明 ：
 * Aulinsanity发布的"Shadowrocket小火箭 解锁网易云灰色歌曲+带脚本懒人配置"项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 * 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, Aulinsanity对于由此引起的任何隐私泄漏或其他后果概不负责.
