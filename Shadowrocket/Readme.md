@@ -8,10 +8,10 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image1.png" width="35%">
 
-**2).将懒人配置地址复制粘贴   https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf**
+**2).将懒人配置地址复制粘贴**  **https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image2.png" width="35%">
-**3).点击生成的远程文件,然后点击使用配置,此时生成并选择了本地文件Shadowrocket_Linsanity.conf, 记住此后不要更改选择其他配置,否则解锁网易云会失效**
+**3).点击生成的远程文件,然后点击使用配置**,**此时生成并选择了本地文件Shadowrocket_Linsanity.conf**, **记住此后不要更改选择其他配置,否则解锁网易云会失效**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image3.png" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image4.png" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image5.png" width="32%">
 
