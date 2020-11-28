@@ -91,7 +91,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/赞赏码.jpg" width="49%">
 
 # 所有内容均来自互联网 不确保可用性
-# 不要问我 啥都不会
+# 不要问我太多技术细节 我真的啥都不会
 ### 说明 :
 * 只是搬运和同步更新大佬脚本.
 * 不负责维护脚本.
