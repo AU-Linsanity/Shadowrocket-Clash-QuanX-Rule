@@ -17,7 +17,7 @@
 
 **1.复制配置文件链接, 配置文件如下:**
 **[\[Shadowrocket_Linsanity.conf\]](https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf)          
-https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf)**
+https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf**
 **2.加载小火箭懒人配置方法:
 1).打开小火箭点击下方配置后,点击右上角'+'添加按钮,将懒人配置文件链接复制**
 
