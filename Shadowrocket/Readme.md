@@ -30,6 +30,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 **2).添加节点后,首页显示5个单独的节点和一个新增的订阅**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image13.jpg" width="35%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image14.jpg" width="35%">
+
 **4.将网易云节点分组到一个组中:**
 **1).主页点击全局路由,选择 配置**
 
