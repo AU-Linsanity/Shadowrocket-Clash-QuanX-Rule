@@ -42,9 +42,12 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image16.png" width="35%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image17.jpg" width="35%">
 
-3).新建分组  网易云音乐   注意一定是要这个名字 因为配置文件里默认这个名字, 并且将负载均衡点开,把我们添加的网易云音乐节点一一加入该小组
+**3).新建分组  网易云音乐   注意一定是要这个名字 因为配置文件里默认这个名字, 并且将负载均衡点开,把我们添加的网易云音乐节点一一加入该小组**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image18.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image19.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image22.jpg" width="32%">
+
+
+
 
 **5.此时,当开启代理后,无论用户选择哪个节点进行科学上网, 小火箭会把访问网易月音乐的流量自动分配给 我们设置的'网易云音乐'小组进行代理.
 打开代理后,可以用网易云音乐 周杰伦的专辑<摩羯座>进行测试,只要该专辑所有歌曲都能播放,那么就可以说成功完成了解锁.**
