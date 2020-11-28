@@ -1,0 +1,757 @@
+#---------------------------------------------------#
+## 配置文件需要放置在 $HOME/.config/clash/config.yaml
+##
+## 如果您不知道如何操作，请参阅 SS-Rule-Snippet 的 Wiki：
+## https://github.com/Hackl0us/SS-Rule-Snippet/wiki/clash(X)
+
+## 关于 Clash Premium 的额外功能，请参考官方文档：
+## https://github.com/Dreamacro/clash/wiki/Premium-Core-Features
+#---------------------------------------------------#
+
+# HTTP 代理端口
+port: 7890
+
+# SOCKS5 代理端口
+socks-port: 7891
+
+# Linux 和 macOS 的 redir 透明代理端口 (重定向 TCP 和 TProxy UDP 流量)
+# redir-port: 7892
+
+# Linux 的透明代理端口（适用于 TProxy TCP 和 TProxy UDP 流量)
+# tproxy-port: 7893
+
+# 本地 SOCKS5/HTTP(S) 服务验证
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
+
+# 允许局域网的连接（可用来共享代理）
+allow-lan: true
+bind-address: "*"
+# 此功能仅在 allow-lan 设置为 true 时生效，支持三种参数：
+# "*"                           绑定所有的 IP 地址
+# 192.168.122.11                绑定一个的 IPv4 地址
+# "[aaaa::a8aa:ff:fe09:57d8]"   绑定一个 IPv6 地址
+
+# Clash 路由工作模式
+# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）
+mode: rule
+
+# Clash 默认将日志输出至 STDOUT
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / info / warning / error / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: silent
+
+# clash 的 RESTful API 监听地址
+external-controller: 127.0.0.1:9090
+
+# 存放配置文件的相对路径，或存放网页静态资源的绝对路径
+# Clash core 将会将其部署在 http://{{external-controller}}/ui
+# external-ui: folder
+
+# RESTful API 的口令 (可选)
+# 通过 HTTP 头中 Authorization: Bearer ${secret} 参数来验证口令
+# 当 RESTful API 的监听地址为 0.0.0.0 时，请务必设定口令以保证安全
+# secret: ""
+
+# 出站网卡接口
+# interface-name: en0
+
+# DNS 服务器和建立连接时的 静态 Hosts, 仅在 dns.enhanced-mode 模式为 redir-host 生效
+# 支持通配符域名 (例如: *.clash.dev, *.foo.*.example.com )
+# 不使用通配符的域名优先级高于使用通配符的域名 (例如: foo.example.com > *.example.com > .example.com )
+# 注意: +.foo.com 的效果等同于 .foo.com 和 foo.com
+hosts:
+# '*.clash.dev': 127.0.0.1
+# '.dev': 127.0.0.1
+# 'alpha.clash.dev': '::1'
+
+# DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: true # 当此选项为 false 时, AAAA 请求将返回空
+
+  # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
+  # 仅填写 DNS 服务器的 IP 地址
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+  enhanced-mode: redir-host # 或 fake-ip
+  fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
+  # use-hosts: true # 查询 hosts 并返回 IP 记录
+
+  # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
+  # fake-ip-filter:
+  #   - '*.lan'
+  #   - localhost.ptlogin2.qq.com
+
+  # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
+  # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
+  # Clash 会使用最先获得的解析记录回复 DNS 请求
+  nameserver:
+    - 114.114.114.114 # default value
+    - 8.8.8.8 # default value
+    - 8.8.4.4 # default value
+    - https://dns.alidns.com/dns-query
+    - https://13800000000.rubyfish.cn/
+    - https://doh.360.cn/dns-query
+    - https://1.1.1.1/dns-query # DNS over HTTPS
+
+  # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
+  # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
+  # fallback:
+  #  - https://dns.google/dns-query
+
+  # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
+  # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
+  #
+  # 当 fallback-filter.geoip 为 true 且 IP 地址的地理位置为 CN 时，
+  # Clash 会选用 nameserver 列表中配置 DNS 服务器解析得到的结果。
+  #
+  # 当 fallback-filter.geoip 为 false, 如果解析结果在 fallback-filter.ipcidr 范围内，
+  # Clash 会选用 nameserver 列表中配置 DNS 服务器解析得到的结果。
+  #
+  # 采取以上逻辑进行域名解析是为了对抗 DNS 投毒攻击。
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    # - 240.0.0.0/4
+
+proxies:
+  # VMess(Websocket + TLS)
+  - name: "v2ray示例"
+    type: vmess
+    server: test.bozai.us
+    port: 443
+    uuid: 6d499645-649f-48c7-9841-424b3c955fa6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /10e0521eb4/ 
+    Host: v2ray.com
+    # udp: true
+    # skip-cert-verify: true
+    # ws-headers:
+    
+
+  # Trojan
+  - name: "Trojan示例"
+    type: trojan
+    server: test1.bozai.us
+    port: 443
+    password: 6d499645-649f-48c7-9841-424b3c955fa6
+    # udp: true
+    # sni: example.com # aka server name
+    # alpn:
+    #   - h2
+    #   - http/1.1
+    # skip-cert-verify: true
+
+  # http
+  - name: "网易云音乐-2"
+    type: http
+    server: 106.52.127.72
+    port: 19951
+    # username: username
+    # password: password
+    # tls: true # https
+    # skip-cert-verify: true
+
+  # http
+  - name: "网易云音乐-3"
+    type: http
+    server: music.lolico.me
+    port: 39000
+    # username: username
+    # password: password
+    # tls: true # https
+    # skip-cert-verify: true
+
+  - name: "网易云音乐-4"
+    type: ss
+    server: music.desperadoj.com
+    port: 30001
+    cipher: aes-128-gcm
+    password: desperadoj.com_free_proxy_emx2
+
+  - name: "网易云音乐-5"
+    type: http
+    server: music.griouges.cn
+    port: 39000
+    # username: username
+    # password: password
+    # tls: true # https
+    # skip-cert-verify: true
+
+  - name: "网易云音乐-6"
+    type: http
+    server: taron.top
+    port: 200
+    # username: username
+    # password: password
+    # tls: true # https
+    # skip-cert-verify: true
+
+  - name: "网易云音乐-7"
+    type: ss
+    server: music.desperadoj.com
+    port: 30003
+    cipher: aes-128-gcm
+    password: desperadoj.com_free_proxy_emx2
+
+proxy-groups:
+
+  # select 用来允许用户手动选择 代理服务器 或 服务器组
+  # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
+
+  # 代理节点选择
+  - name: "🚀 代理方式"
+    type: select
+    proxies:
+      - V2RAY示例
+      - Trojan示例
+      - 🔯 故障转移
+      - 🔮 负载均衡
+      - ♻️ 自动快速选择
+      - 🚀 泡泡云手动选择
+      - ♻️ 泡泡云快速选择
+      - 🇭🇰 泡泡云香港节点
+      - 🇹🇼泡泡云台湾节点
+      - 🇸🇬 泡泡云狮城节点
+      - 🇯🇵 泡泡云日本节点
+      - 🇺🇲 泡泡云美国节点
+      - 🚀 Yiaway手动选择
+      - ♻️ Yiaway快速选择
+      - 🚀 iKuuu手动选择
+      - ♻️ iKuuu快速选择
+      - 🇭🇰 iKuuu香港节点
+
+
+
+  # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
+ # 自动快速选择
+  - name: "♻️ 自动快速选择"
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 500
+    proxies:
+      - V2RAY示例
+      - Trojan示例
+      - ♻️ 泡泡云快速选择
+
+  # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
+  - name: "🔯 故障转移"
+    type: fallback
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - V2RAY示例
+      - Trojan示例
+      - 🇭🇰 泡泡云香港节点
+      - 🇭🇰 Yiaway香港节点
+      - 🇭🇰 iKuuu香港节点
+ 
+
+  # load-balance 可以使相同 eTLD 请求在同一条代理线路上
+  # 负载均衡
+  - name: "🔮 负载均衡"
+    type: load-balance
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - GCP-Vmess
+      - GCP-Trojan
+      - 🇭🇰 泡泡云香港节点
+      - 🇭🇰 Yiaway香港节点
+      - 🇭🇰 iKuuu香港节点
+
+  # 奈飞
+  - name: "🎥 Netflix"
+    type: select
+    proxies:
+      - 🚀 代理方式
+      - V2RAY示例
+      - Trojan示例
+      - 🚀 泡泡云手动选择
+      - 🇭🇰 CrossZ香港节点
+
+  # 电报
+  - name: "📲 电报消息"
+    type: select
+    proxies:
+      - 🚀 代理方式
+      - V2RAY示例
+      - Trojan示例
+      - 🚀 泡泡云手动选择
+      - 🇭🇰 泡泡云香港节点
+
+  # 苹果新闻
+  - name: "🍎 Apple-News"
+    type: select
+    proxies:
+      - 🚀 代理方式
+      - V2RAY示例
+      - Trojan示例
+      - 🚀 泡泡云手动选择
+      - 🇭🇰 泡泡云香港节点
+
+  # 网易云音乐
+  - name: "🎶 网易云音乐"
+    type: select
+    proxies:
+      - 网易云音乐-1
+      - 网易云音乐-2
+      - 网易云音乐-3
+      - 网易云音乐-4
+      - 网易云音乐-5
+      - 网易云音乐-6
+      - 网易云音乐-7
+      - 🔮 网易均衡
+      - DIRECT
+
+  # Youtube
+  - name: "📹 油管视频"
+    type: select
+    proxies:
+      - 🚀 代理方式
+      - V2RAY示例
+      - Trojan示例
+      - 🚀 泡泡云手动选择
+      - 🇭🇰 泡泡云香港节点
+
+
+  # 国际流媒体服务
+  - name: "🌍 Streaming"
+    type: select
+    proxies:
+      - 🚀 代理方式
+      - V2RAY示例
+      - Trojan示例
+      - 🚀 泡泡云手动选择
+      - 🇭🇰 泡泡云香港节点
+      
+  # 中国流媒体服务（面向海外版本）
+  - name: "🌑 StreamingSE"
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 代理方式
+
+  # 中国流媒体服务
+  - name: "🇨🇳 StreamingCN"
+    type: select
+    proxies:
+      - DIRECT
+
+  # 负载均衡
+  - name: "🔮 网易均衡"
+    type: load-balance
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - 网易云音乐-1
+      - 网易云音乐-2
+      - 网易云音乐-3
+      - 网易云音乐-4
+      - 网易云音乐-5
+      - 网易云音乐-6
+      - 网易云音乐-7
+
+  # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
+  - name: "🐟 MATCH"
+    type: select
+    proxies:
+      - 🚀 代理方式
+      - DIRECT
+
+  # 应用净化
+  - name: "🍃 应用净化"
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  # 广告拦截
+  - name: "🛑 广告拦截"
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+ 
+  # 手动选择节点订阅
+  - name: "🚀 泡泡云手动选择"
+    type: select # 亦可使用 fallback 或 load-balance
+    use:
+      - 泡泡云-Sub
+
+  - name: "♻️ 泡泡云快速选择"
+    type: url-test
+    use:
+      - 泡泡云-Sub
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🇭🇰 泡泡云香港节点"
+    type: url-test
+    use:
+      - 泡泡云-HK
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🇸🇬 泡泡云狮城节点"
+    type: url-test
+    use:
+      - 泡泡云-SG
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🇹🇼泡泡云台湾节点"
+    type: url-test
+    use:
+      - 泡泡云-TW
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🇯🇵 泡泡云日本节点"
+    type: url-test
+    use:
+      - 泡泡云-JP
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🇺🇲 CrossZ美国节点"
+    type: url-test
+    use:
+      - 泡泡云-USA
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🚀 Yiaway手动选择"
+    type: select # 亦可使用 fallback 或 load-balance
+    use:
+      - Yiaway-Sub
+
+  - name: "♻️ Yiaway快速选择"
+    type: url-test
+    use:
+      - Yiaway-Sub
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🚀 iKuuu手动选择"
+    type: select # 亦可使用 fallback 或 load-balance
+    use:
+      - iKuuu-Sub
+
+  - name: "♻️ iKuuu快速选择"
+    type: url-test
+    use:
+      - iKuuu-Sub
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "🇭🇰 iKuuu香港节点"
+    type: url-test
+    use:
+      - iKuuu-HK
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+  - name: "网易云音乐-1"
+    type: url-test
+    use:
+      - 网易云音乐-1
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+
+proxy-providers:
+
+  泡泡云-Sub: # 泡泡云 https://crossz.xyz  机场订阅链接
+    type: http
+    url: "复制粘贴转换好的泡泡云链接"
+    interval: 3600
+    path: ./Proxy/PPY-Sub.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  泡泡云-HK:
+    type: http
+    path: ./Proxy/PPY-Sub/HK.yaml
+    url: "复制粘贴转换好的泡泡云香港链接"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  泡泡云-SG:
+    type: http
+    path: ./Proxy/PPY-Sub/SG.yaml
+    url: "复制粘贴转换好的泡泡云新加坡链接"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  泡泡云-TW:
+    type: http
+    path: ./Proxy/PPY-Sub/TW.yaml
+    url: "复制粘贴转换好的泡泡云台湾链接"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  泡泡云-JP:
+    type: http
+    path: ./Proxy/PPY-Sub/JP.yaml
+    url: "复制粘贴转换好的泡泡云日本链接"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  泡泡云-USA:
+    type: http
+    path: ./Proxy/PPY-Sub/USA.yaml
+    url: "复制粘贴转换好的泡泡云美国链接"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  Yiaway-Sub: # Yiaway https://crossx.xyz  机场订阅链接
+    type: http
+    url: "复制粘贴转换好的Yiaway链接"
+    interval: 3600
+    path: ./Proxy/Yiaway-sub.yaml # 不同机场不同命名
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  iKuuu-Sub: # 机场订阅链接
+    type: http
+    url: "复制粘贴转换好的iKuuu链接"
+    interval: 3600
+    path: ./Proxy/iKuuu-List.yaml # 不同机场不同命名
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  iKuuu-HK:
+    type: http
+    path: ./Proxy/iKuuu-Sub/HK.yaml
+    url: "复制粘贴转换好的iKuuu香港链接"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  网易云音乐-1:
+    type: http
+    path: ./Proxy/NetEaseMusic-1.yaml
+    url: "https://suo.yt/CjimVJZ"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+
+# 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
+ 
+rule-providers:
+# name: # Provider 名称
+#   type: http # http 或 file
+#   behavior: classical # 或 ipcidr、domain
+#   path: # 文件路径
+#   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
+#   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
+ 
+  lan:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/LAN.yaml"
+    path: ./ruleset/LAN.yaml
+    interval: 3600
+
+  Unbreak:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Unbreak.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml"
+    interval: 86400
+
+  BanAD:
+    type: http
+    behavior: classical
+    path: ./RuleSet/BanAD.yaml
+    url: "https://raw.githubusercontent.com/AU-Linsanity/ACL4SSR/master/Clash/BanAD.yaml"
+    interval: 86400
+
+  BanProgramAD:
+    type: http
+    behavior: classical
+    path: ./RuleSet/BanProgramAD.yaml
+    url: "https://raw.githubusercontent.com/AU-Linsanity/ACL4SSR/master/Clash/BanProgramAD.yaml"
+    interval: 86400
+
+  Apple-News:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Apple-News.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/News.yaml"
+    interval: 86400
+
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    path: ./RuleSet/NetEaseMusic.yaml
+    url: "https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Clash/NeteaseMusic.yaml"
+    interval: 86400
+ 
+  Netflix:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Extra/Netflix.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml"
+    interval: 86400
+
+  Youtube:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Youtube.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml"
+    interval: 86400
+
+  Streaming:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/Streaming.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml"
+    interval: 86400
+ 
+  StreamingSE:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/StreamingSE.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml"
+    interval: 86400
+
+  StreamingCN:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/StreamingCN.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml"
+    interval: 86400
+
+  Telegram:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/Telegram.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml"
+    interval: 86400 
+
+
+  Global:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Global.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml"
+    interval: 86400
+ 
+  China:
+    type: http
+    behavior: classical
+    path: ./RuleSet/China.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml"
+    interval: 86400
+ 
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    path: ./RuleSet/Extra/ChinaIP.yaml
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml"
+    interval: 86400
+
+
+
+
+
+
+ 
+
+
+# 规则
+rules:
+
+  # Unbreak
+  - RULE-SET,Unbreak,DIRECT
+
+  # 广告拦截 
+  - RULE-SET,BanAD,🛑 广告拦截
+
+  # 应用净化 
+  - RULE-SET,BanProgramAD,🍃 应用净化
+
+  # 网易云音乐
+  - RULE-SET,NetEaseMusic,🎶 网易云音乐
+
+  # 奈飞
+  - RULE-SET,Netflix,🎥 Netflix
+
+
+  # Youtube
+  - RULE-SET,Youtube,📹 油管视频
+ 
+  # Global Area Network
+ 
+  # (Streaming Media)
+  - RULE-SET,Streaming,🌍 Streaming
+ 
+  # (StreamingSE)
+  - RULE-SET,StreamingSE,🌑 StreamingSE
+
+  # (StreamingCN)
+  - RULE-SET,StreamingCN,🇨🇳 StreamingCN
+
+  # Telegram 
+  - RULE-SET,Telegram,📲 电报消息
+
+  # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
+  - RULE-SET,Global,🚀 代理方式
+ 
+  # China Area Network
+  - RULE-SET,China,DIRECT
+ 
+  # Local Area Network
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+ 
+  # （可选）使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时可禁用下列直至（包括）「GEOIP,CN」规则
+  # - RULE-SET,ChinaIP,DIRECT
+  # Tencent
+  - IP-CIDR,119.28.28.28/32,DIRECT
+  - IP-CIDR,182.254.116.0/24,DIRECT
+  # GeoIP China
+  - RULE-SET,lan,DIRECT
+  - GEOIP,CN,DIRECT
+ 
+  - MATCH,🐟 MATCH
