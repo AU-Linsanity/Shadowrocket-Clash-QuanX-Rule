@@ -4,22 +4,20 @@
 
 **整体操作步骤:**
 
-**1.复制配置文件链接** 
+**1.复制配置文件链接加载小火箭懒人配置**
 
-**2.加载小火箭懒人配置**
+**2.添加解锁网易云音乐节点**
 
-**3.添加解锁网易云音乐节点**
+**3.将网易云节点分组到一个组中**
 
-**4.将网易云节点分组到一个组中**
-
-**5.开启代理, 打开网易云音乐的周杰伦<摩羯座>专辑验证破解是否生效**
+**4.开启代理, 打开网易云音乐的周杰伦<摩羯座>专辑验证破解是否生效**
 
 
-**1.复制配置文件链接, 配置文件如下:**
+**1.复制配置文件链接, 加载小火箭懒人配置方法,配置文件如下:**
 **[\[Shadowrocket_Linsanity.conf\]](https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf)          
 https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Shadowrocket_Linsanity.conf**
-**2.加载小火箭懒人配置方法:
-1).打开小火箭点击下方配置后,点击右上角'+'添加按钮,将懒人配置文件链接复制**
+
+**1).打开小火箭点击下方配置后,点击右上角'+'添加按钮,将懒人配置文件链接复制**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image1.png" width="35%">
 
@@ -33,7 +31,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image3.png" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image4.png" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image5.png" width="32%">
 
-**3.添加解锁网易云音乐节点的方法:**
+**2.添加解锁网易云音乐节点的方法:**
 
 **1).点击小火箭首页左上角的扫描按钮,对以下6个二维码进行扫描生成节点**
 
@@ -67,7 +65,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image13.jpg" width="35%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image14.jpg" width="35%">
 
-**4.将网易云节点分组到一个组中:**
+**3.将网易云节点分组到一个组中:**
 
 **1).主页点击全局路由,选择 配置**
 
@@ -84,7 +82,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 
 
-**5.此时,当开启代理后,无论用户选择哪个节点进行科学上网, 小火箭会把访问网易云音乐的流量自动分配给 我们设置的'网易云音乐'小组进行代理.**
+**4.此时,当开启代理后,无论用户选择哪个节点进行科学上网, 小火箭会把访问网易云音乐的流量自动分配给 我们设置的'网易云音乐'小组进行代理.**
 **打开代理后,可以用网易云音乐 周杰伦的专辑<摩羯座>进行测试,只要该专辑所有歌曲都能播放,那么就可以说成功完成了解锁.**
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image20.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image21.jpg" width="32%">
 
