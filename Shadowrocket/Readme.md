@@ -2,7 +2,7 @@
 **Linsanity 懒人配置：（包含常见策略组和分流规则，解锁网易云音乐灰色歌曲,常用签到定时任务、获取 Cookie 等脚本-脚本默认不开启）**
 
 
-另:解锁网易云音乐功能, iOS设备还需安装 CA 证书。首先点击链接：https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/UnblockNeteaseMusic/ca.crt   添加证书，随后在 设置 > 通用 > 关于本机 > 证书信任设置 下，手动开启证书即可．
+另:解锁网易云音乐功能, iOS设备还需安装 CA 证书。首先复制链接到IOS设备Safari浏览器中点击：https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/UnblockNeteaseMusic/ca.crt   添加证书，随后在 设置 > 通用 > 关于本机 > 证书信任设置 下，手动开启证书即可．
 
 
 
@@ -79,7 +79,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image16.png" width="35%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image17.jpg" width="35%">
 
-**3).新建分组  网易云音乐   注意一定是要这个名字 因为配置文件里默认这个名字, 并且将负载均衡点开,把我们添加的网易云音乐节点一一加入该小组**
+**3).新建分组  网易云音乐   注意一定是要这个名字 因为配置文件里默认这个名字, 并且可选择性将负载均衡点开,把我们添加的网易云音乐节点一一加入该小组(最新版小火箭取消负载均衡,那请在网易云音乐分组中选择固定节点)**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image18.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image19.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image22.jpg" width="32%">
 
