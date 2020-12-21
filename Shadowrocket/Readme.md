@@ -64,7 +64,7 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image16.png" width="35%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image17.jpg" width="35%">
 
-**3).新建分组  网易云音乐   注意一定是要这个名字 因为配置文件里默认这个名字, 并且可选择性将负载均衡点开,把我们添加的网易云音乐节点一一加入该小组(最新版小火箭取消负载均衡,那请在网易云音乐分组中选择固定节点)**
+**3).新建分组  网易云音乐   注意一定是要这个名字 因为配置文件里默认这个名字, 并且可选择性将负载均衡点开(最好不要打开),把我们添加的网易云音乐节点一一加入该小组(最新版小火箭取消负载均衡,那请在网易云音乐分组中选择固定节点)**
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image18.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image19.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image22.jpg" width="32%">
 
