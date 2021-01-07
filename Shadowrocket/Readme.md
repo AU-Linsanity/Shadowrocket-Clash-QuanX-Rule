@@ -83,9 +83,14 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 配置——本地文件一栏——点击 Shadowrocket_Linsanity.conf 配置——弹出菜单选择编辑配置：
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/编辑配置.jpg" width="40%">
 
-可以看到 HTTPS 解密的选择，如果是未打开状态，请点击进去，将 HTTPS 解密的开关打开。记得按右上角的打钩符号确认保存。
+可以看到 HTTPS 解密的选择，如果是未打开状态，请点击进去，将 HTTPS 解密的开关打开。
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/解密.jpg" width="72%">
 
+打开HTTPS开关后会弹出证书界面,请删除原有证书后,重新生成证书.
+
+然后点击安装证书,在右下角点击Safari打开后强行安装证书，随后在 设置 > 通用 > 关于本机 > 证书信任设置 下，手动开启证书即可．
+
+最后记得返回小火箭界面在https解密右上角那里打勾号确认保存。
 
 ### 请喝奶茶？谢谢赞赏!~
 
