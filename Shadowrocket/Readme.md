@@ -82,8 +82,11 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 
 配置——本地文件一栏——点击 Shadowrocket_Linsanity.conf 配置——弹出菜单选择编辑配置：
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/编辑配置.jpg" width="40%">
+
 可以看到 HTTPS 解密的选择，如果是未打开状态，请点击进去，将 HTTPS 解密的开关打开。记得按右上角的打钩符号确认保存。
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/解密.jpg" width="72%">
+
+
 ### 请喝奶茶？谢谢赞赏!~
 
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/赞赏码.jpg" width="49%">
