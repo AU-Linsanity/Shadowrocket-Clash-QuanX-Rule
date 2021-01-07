@@ -1,5 +1,5 @@
 # Shadowrocket小火箭 解锁网易云灰色歌曲+带脚本懒人配置
-**Linsanity 懒人配置：（本配置可更新,包含常见策略组和分流规则，解锁网易云音乐灰色歌曲,常用签到定时任务、获取 Cookie 等脚本-脚本默认不开启）**
+**Linsanity 懒人配置：（本配置可更新,包含常见策略组和分流规则，可去youtube广告,解锁网易云音乐灰色歌曲,常用签到定时任务、获取 Cookie 等脚本-脚本默认不开启）**
 
 
 另:解锁网易云音乐功能, iOS设备还需安装 CA 证书。首先复制链接到IOS设备Safari浏览器中点击：https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/UnblockNeteaseMusic/ca.crt   添加证书，随后在 设置 > 通用 > 关于本机 > 证书信任设置 下，手动开启证书即可．
