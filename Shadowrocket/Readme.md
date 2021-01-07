@@ -1,9 +1,9 @@
 # Shadowrocket小火箭 解锁网易云灰色歌曲+带脚本懒人配置
 **Linsanity 懒人配置：（本配置可更新,包含常见策略组和分流规则，可去youtube广告,解锁网易云音乐灰色歌曲,常用签到定时任务、获取 Cookie 等脚本-脚本默认不开启）**
 
+解锁网易云音乐功能设置教程:
 
-另:解锁网易云音乐功能, iOS设备还需安装 CA 证书。首先复制链接到IOS设备Safari浏览器中点击：https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/UnblockNeteaseMusic/ca.crt   添加证书，随后在 设置 > 通用 > 关于本机 > 证书信任设置 下，手动开启证书即可．
-
+解锁网易云音乐功能, iOS设备还需安装 CA 证书。首先复制链接到IOS设备Safari浏览器中点击：https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/UnblockNeteaseMusic/ca.crt   添加证书，随后在 设置 > 通用 > 关于本机 > 证书信任设置 下，手动开启证书即可．
 
 
 **整体操作步骤:**
@@ -74,6 +74,15 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 **4.此时,当开启代理后,无论用户选择哪个节点进行科学上网, 小火箭会把访问网易云音乐的流量自动分配给 我们设置的'网易云音乐'小组进行代理.**
 **打开代理后,可以用网易云音乐 周杰伦的专辑<摩羯座>进行测试,只要该专辑所有歌曲都能播放,那么就可以说成功完成了解锁.**
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image20.jpg" width="32%"><img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/image21.jpg" width="32%">
+
+
+开启脚本证书的教程--可去Youtube广告
+
+开启 HTTPS 解密
+
+配置——本地文件一栏——点击 Shadowrocket_Linsanity.conf 配置——弹出菜单选择编辑配置：
+
+可以看到 HTTPS 解密的选择，如果是未打开状态，请点击进去，将 HTTPS 解密的开关打开。记得按右上角的打钩符号确认保存。
 
 ### 请喝奶茶？谢谢赞赏!~
 
