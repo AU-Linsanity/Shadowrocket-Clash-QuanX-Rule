@@ -87,8 +87,11 @@ https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/mai
 <img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/解密.jpg" width="72%">
 
 打开HTTPS开关后会弹出证书界面,请删除原有证书后,重新生成证书.
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/证书.png" width="32%">
 
 然后点击安装证书,在右下角点击Safari打开后强行安装证书，随后在 设置 > 通用 > 关于本机 > 证书信任设置 下，手动开启证书即可．
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/安装.png" width="32%">
+<img src="https://raw.githubusercontent.com/AU-Linsanity/Shadowrocket-Clash-QuanX-Rule/main/Shadowrocket/Readme_md_files/强行安装.png" width="32%">
 
 最后记得返回小火箭界面在https解密右上角那里打勾号确认保存。
 
