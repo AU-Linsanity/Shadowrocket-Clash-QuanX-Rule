@@ -8,6 +8,14 @@ DOMAIN-SUFFIX,music.163.com
 DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,interface.music.163.com
 DOMAIN-SUFFIX,interface3.music.163.com
+DOMAIN-SUFFIX,interface3.music.163.com.163jiasu.com
+DOMAIN-SUFFIX,netease.ugcvideoss.ourdvs.com
+DOMAIN-SUFFIX,crash.163.com
+DOMAIN-SUFFIX,hz.netease.com
+DOMAIN-SUFFIX,imap.163.com
+DOMAIN-SUFFIX,mr.da.netease.com
+DOMAIN-SUFFIX,music.126.com
+DOMAIN-SUFFIX,music.163.com.163jiasu.com
 DOMAIN-SUFFIX,apm.music.163.com
 DOMAIN-SUFFIX,apm3.music.163.com
 IP-CIDR,39.105.63.80/32,no-resolve
